@@ -1,0 +1,8 @@
+services:
+  scraper:
+    build: .
+    container_name: html_scraper
+    volumes:
+      - .:/app  # Asocia el directorio actual/data al directorio /app en el contenedor
+    stdin_open: true
+    tty: true
