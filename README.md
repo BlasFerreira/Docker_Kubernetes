@@ -8,6 +8,6 @@ Ejecutar con Docker Compose:
 docker-compose up --build
 
 Archivos CSV
-Se guardan en ./data/ con el formato exchange_rates_YYYYMMDD_HHMMSS.csv.
+Se guardan en ./exchange con el formato exchange_rates_YYYYMMDD_HHMMSS.csv.
 
 ![alt text](image.png)
